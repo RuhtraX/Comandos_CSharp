@@ -91,6 +91,7 @@ $(function() {
     this.renderMarkdown = function() {
       this.value = marked(this.value);
       this.container.html(this.processHtml());
+      hljs.highlightAll();
     };
 
     this.renderUnknown = function() {

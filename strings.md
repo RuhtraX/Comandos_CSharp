@@ -2,10 +2,12 @@
 
 ### Pegar uma parte da string (4 primeiros caracteres)
 
-`parte = original.Substring(0,4);`
+```csharp
+parte = original.Substring(0,4);
+```
 
 ### Remover ocorrencia de caracteres na string (TRIM)
-```
+```csharp
 char[] caracteres = { '*', ' ', '\''};
 string banner = "*** Muito sobre vários nada ***";
 string resultado = banner.Trim(caracteres);

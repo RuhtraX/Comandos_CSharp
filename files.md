@@ -6,7 +6,7 @@ using System;
 using System.IO;
 ```
 
-### Exluir arquivo
+### Excluir arquivo
 
 ```
 try
@@ -79,7 +79,7 @@ private static void GetFileName()
 {
   String caminhoArquivo = @"C:\arquivo.xlsx";
   FileInfo fileInfo = new FileInfo(caminhoArquivo);
-  Console.WriteLine("Nome do arquivo: {0}, fileInfo.Name);
+  Console.WriteLine("Nome do arquivo: {0}, fileInfo.Name");
   return fileInfo.Name;
 }
 ```
@@ -95,7 +95,9 @@ using (StreamWriter writer = new StreamWriter("C:\\dados\\arquivo.txt", true))
 ### Extrair conteúdo de arquivo compactado (.zip)
 
 #### Importar
-`using System.IO.Compression;`
+```
+using System.IO.Compression;
+```
 
 #### Exemplo
 ```

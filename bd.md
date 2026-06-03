@@ -3,7 +3,9 @@
 ### SQL SERVER
 
 #### Importar
-`using System.Data.SqlClient; // Instalar via NuGet System.Data.SqlClient`
+```
+using System.Data.SqlClient; // Instalar via NuGet System.Data.SqlClient
+```
 
 #### Exemplo conexão e consulta
 
@@ -22,7 +24,9 @@ conexao.Close();
 ### MYSQL
 
 #### Importar
-`using MySql.Data.MySqlClient; // Instalar via NuGet MySQL.Data`
+```
+using MySql.Data.MySqlClient; // Instalar via NuGet MySQL.Data
+```
 
 #### Exemplo conexão e consulta
 ```
@@ -40,7 +44,9 @@ conexao.Close(); // Fecha conexão
 ### ORACLE
 
 #### Importar
-`using Oracle.ManagedDataAccess.Client; //Instalar via NuGet Oracle.ManagedDataAccess`
+```
+using Oracle.ManagedDataAccess.Client; //Instalar via NuGet Oracle.ManagedDataAccess
+```
 
 #### Exemplo conexão e consulta
 ```
