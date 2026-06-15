@@ -1,5 +1,3 @@
-# Comandos CSharp
-
 [Banco de Dados](bd.md)  
 [Regex](regex.md)  
 [Arquivos](files.md)  
